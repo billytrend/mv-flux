@@ -1,0 +1,19 @@
+{
+  "name": "mv-flux",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "build": "jsx app.jsx > app.inter.js; browserify app.inter.js -o app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "browserify": "^8.0.2",
+    "flux": "^2.0.1",
+    "keymirror": "^0.1.1",
+    "object-assign": "^2.0.0",
+    "react": "^0.12.2",
+    "react-tools": "^0.12.2"
+  }
+}
